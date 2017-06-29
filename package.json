@@ -1,0 +1,32 @@
+{
+  "name": "sortof-local-storage",
+  "version": "1.0.0",
+  "description": "Same interface as the browser's localStorage, but works in Node. 0 persistence.  Useful for testing.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js test",
+    "test": "tape test/**/*.test.js"
+  },
+  "keywords": [
+    "localStorage",
+    "test",
+    "node"
+  ],
+  "author": "Ethan Garofolo <ethan@suchsoftware.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.10.2",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-config-suchsoftware": "^2.0.0",
+    "eslint-plugin-import": "^2.6.1",
+    "eslint-plugin-jsx-a11y": "^5.0.1",
+    "eslint-plugin-react": "^7.0.1",
+    "tape": "^4.7.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "suchsoftware"
+    ]
+  }
+}
