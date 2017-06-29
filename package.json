@@ -1,6 +1,6 @@
 {
   "name": "sortof-local-storage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Same interface as the browser's localStorage, but works in Node. 0 persistence.  Useful for testing.",
   "main": "index.js",
   "scripts": {
