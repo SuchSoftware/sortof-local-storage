@@ -13,6 +13,7 @@
     "node"
   ],
   "author": "Ethan Garofolo <ethan@suchsoftware.com>",
+  "repository": "https://github.com/SuchSoftware/sortof-local-storage",
   "license": "ISC",
   "devDependencies": {
     "babel-eslint": "^7.2.3",
